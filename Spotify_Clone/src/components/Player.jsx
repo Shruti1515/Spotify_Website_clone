@@ -1,8 +1,8 @@
 
 
 import React, { useContext } from "react";
-import { assets } from "../assets/assets.js";
-import { PlayerContext } from "../context/playerContext.jsx";
+import { assets } from "../assets/assets";
+import { PlayerContext } from "../context/playerContext";
 
 export const Player = () => {
   const { track, seekBar, seekbg, playStatus, play, pause, time, previous, next, seekSong } = useContext(PlayerContext);

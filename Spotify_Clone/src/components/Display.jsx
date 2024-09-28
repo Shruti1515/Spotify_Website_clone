@@ -3,9 +3,9 @@
 import React, { useEffect, useRef } from 'react';
 import { Routes, Route, useLocation, useParams } from "react-router-dom";
 import { Navbar } from "./Navbar";
-import { albumsData } from '../assets/assets.js';
+import { albumsData } from '../assets/assets';
 import { AlbumItems } from './AlbumItems';
-import { songsData } from '../assets/assets.js';
+import { songsData } from '../assets/assets';
 import { SingsItems } from './SingsItems';
 import { Album } from './Album';
 
