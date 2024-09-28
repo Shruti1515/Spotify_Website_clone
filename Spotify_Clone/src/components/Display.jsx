@@ -2,12 +2,12 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Routes, Route, useLocation, useParams } from "react-router-dom";
-import { Navbar } from "./Navbar.jsx";
+import { Navbar } from "./Navbar";
 import { albumsData } from '../assets/assets.js';
-import { AlbumItems } from './AlbumItems.jsx';
+import { AlbumItems } from './AlbumItems';
 import { songsData } from '../assets/assets.js';
-import { SingsItems } from './SingsItems.jsx';
-import { Album } from './Album.jsx';
+import { SingsItems } from './SingsItems';
+import { Album } from './Album';
 
 export const Display = () => {
   const displayRef = useRef();

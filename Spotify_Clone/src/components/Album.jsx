@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { Navbar } from './Navbar.jsx'
+import { Navbar } from './Navbar'
 import { useParams } from 'react-router-dom'
 import { albumsData, assets, songsData } from '../assets/assets.js';
-import { PlayerContext } from '../context/playerContext.jsx';
+import { PlayerContext } from '../context/playerContext';
 
 export const Album = () => {
 
